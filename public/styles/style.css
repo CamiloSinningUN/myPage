@@ -1,0 +1,231 @@
+* {
+  font-family: "Bebas Neue", cursive;
+}
+header {
+  margin: 40vh auto;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+  font-size: 7vh;
+}
+h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 15vh;
+  color: black;
+}
+h3 {
+  text-align: center;
+  margin: auto;
+  font-size: 5vh;
+  font-size: rgba(0, 0, 0, 0.66);
+}
+
+hr {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.education h2,
+.education hr {
+  color: #3d52d5;
+}
+
+.skills h2,
+.skills hr {
+  color: #f02d3a;
+}
+
+.projects h2,
+.projects hr {
+  color: #2dd881;
+}
+
+.contact h2,
+.contact hr {
+  color: black;
+}
+
+.contact .card {
+  display: inline-block;
+  width: 344px;
+  height: 209px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px 5px;
+  position: relative;
+}
+
+/* .contact .card .card-body{
+    position: relative;
+} */
+.contact .card .card-body img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.contact {
+  text-align: center;
+}
+.projects {
+  text-align: center;
+}
+.projects .card {
+  display: inline-block;
+  max-width: 90vw;
+  max-height: 45vw;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px ;
+  position: relative;
+  border-radius: 15px;
+  background-size: auto 100%;
+}
+header h3 {
+  color: rgba(0, 0, 0, 0.66);
+}
+
+.projects .card .card-body h5 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 322px; */
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vh;
+  /* line-height: 72px; */
+  text-align: center;
+  color: #ffffff;
+}
+
+#doro {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../imgs/doro.png");
+  background-size: auto;
+}
+
+#playandlearn {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../imgs/playandlearn.png");
+  background-size: auto;
+}
+
+#madland {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../imgs/madland.jpg");
+  background-size: contain;
+}
+
+#schoolmodel {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../imgs/modelschool.png");
+  background-size: 100%;
+}
+
+#universitybbdd {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../imgs/universitybbdd.png");
+  background-size: contain;
+}
+
+#ascendens {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../imgs/ascendens.png");
+}
+
+.skills .card {
+  width: fit-content;
+  max-width: 80vw;
+  margin: auto;
+  padding: 50px;
+  border: solid black 1px;
+}
+
+.skills .card .nav .nav-item button {
+  margin: 10px 20px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vh;
+  color: #000000;
+}
+
+.skills .card .nav .nav-item .nav-link.active {
+  background-color: rgba(240, 45, 58, 0.22);
+}
+
+.skills .card .tab-content .tab-pane .row .col p{
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    color: #000000;
+}
+.skills .card .tab-content .tab-pane {
+    margin-top: 50px;
+   text-align: center;
+}
+
+.skills .card .tab-content .tab-pane .row .col p span{
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.education .card {
+  width: 80%;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 15px;
+  border: solid 1px rgb(0, 0, 0);
+}
+
+.education .card .card-body .row .col .titulo {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vh;
+  text-align: left;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.education .card .card-body .row .col {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+  }
+
+.education .card .card-body .row .col .titulo span {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  float: right;
+  font-weight: 400;
+  font-size: 5vh;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.65);
+}
+.education .card .card-body .row .col h3 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vh;
+  /* identical to box height */
+  text-align: left;
+  color: rgba(0, 0, 0, 0.58);
+}
