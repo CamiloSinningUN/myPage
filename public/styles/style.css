@@ -49,12 +49,14 @@ hr {
 
 .contact .card {
   display: inline-block;
-  width: 344px;
-  height: 209px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   vertical-align: middle;
   margin: 5px 5px;
   position: relative;
+  border-radius: 15px;
+  border: solid #000000 1px;
 }
 
 /* .contact .card .card-body{
@@ -63,7 +65,7 @@ hr {
 .contact .card .card-body img {
   max-height: 100%;
   max-width: 100%;
-  width: auto;
+  width: 110px;
   height: auto;
   position: absolute;
   top: 0;
@@ -82,11 +84,11 @@ hr {
   display: inline-block;
   max-width: 90vw;
   max-height: 45vw;
-  width: 500px;
-  height: 250px;
+  width: 400px;
+  height: 200px;
   text-align: center;
   vertical-align: middle;
-  margin: 10px ;
+  margin: 20px ;
   position: relative;
   border-radius: 15px;
   background-size: auto 100%;
