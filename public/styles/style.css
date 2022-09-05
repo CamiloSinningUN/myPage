@@ -51,6 +51,8 @@ hr {
   display: inline-block;
   width: 200px;
   height: 200px;
+  max-width: 45vw;
+  max-height: 45vw;
   text-align: center;
   vertical-align: middle;
   margin: 5px 5px;
